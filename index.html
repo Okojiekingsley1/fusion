@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supply Chain & Software Development Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  
+</head>
+<body class="bg-gray-100">
+
+<!-- navbar and smooth link -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand font-bold text-yellow-600" href="#">Fusion Spark</a>
+    <img src="pic/logo.jpg">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link text-yellow-700" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-yellow-700" href="#supply-chain">Supply Chain</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-yellow-700" href="#software-dev">Software Development</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<style>
+  /* Section Styling */
+  #home {
+      background-image: url('https://via.placeholder.com/1920x1080'); /* Replace with your image URL */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      position: relative;
+      height: 100vh; /* Full viewport height */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  /* Adding the blur effect */
+  #home::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4); /* Optional dark overlay for contrast */
+      backdrop-filter: blur(10px); /* Apply the blur */
+      -webkit-backdrop-filter: blur(10px); /* Safari support */
+      z-index: 1;
+  }
+
+  /* Ensure text remains above the blur effect */
+  .content {
+      position: relative;
+      z-index: 2;
+      color: white;
+      text-align: center;
+      max-width: 800px;
+      padding: 20px;
+  }
+</style>
+</head>
+<body>
+<section id="home" class="container-fluid">
+  <div class="content">
+      <h1 class="display-4 fw-bold">Welcome to Our Supply Chain Solutions</h1>
+      <p class="lead mt-3">Providing the best supply chain management and software development services tailored for your business needs.</p>
+      <a href="#supply-chain" class="btn btn-primary mt-4">Learn More</a>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- supply chain section -->
+<section id="supply-chain" class="bg-white py-10">
+  <div class="container">
+    <h2 class="text-3xl font-semibold text-yellow-600">Supply Chain Solutions</h2>
+    <p class="mt-4 text-yellow-600">Our supply chain solutions streamline your operations with efficient management and logistics support.</p>
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="pic/invent.avif" class="card-img-top" alt="Supply Chain">
+          <div class="card-body">
+            <h5 class="card-title">Inventory Management</h5>
+            <p class="card-text">Optimize your inventory with our tailored solutions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="pic/logistics.jpg" class="card-img-top" alt="Supply Chain">
+          <div class="card-body">
+            <h5 class="card-title">Logistics Support</h5>
+            <p class="card-text">Efficient transport and logistics for seamless operations.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="pic/website.jpg" class="card-img-top" alt="Supply Chain">
+          <div class="card-body">
+            <h5 class="card-title">Web Developent</h5>
+            <p class="card-text">Improve decision-making with comprehensive data insights.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- extended supply of equipment -->
+<section id="equipment-supply-extended" class="py-10 bg-gray-50">
+  <div class="container">
+    <h2 class="text-3xl font-semibold text-blue-600 text-center">Our Equipment Supply Range</h2>
+    <p class="text-center text-gray-600 mt-2">We offer an extensive range of high-quality equipment tailored to meet your business needs.</p>
+    <div class="row mt-8">
+      <div class="col-md-3">
+        <div class="card shadow-sm">
+          <img src="pic/it.avif" class="card-img-top" alt="Industrial Equipment">
+          <div class="card-body">
+            <h5 class="card-title"><b>Industrial Equipment</b></h5>
+            <p class="card-text">From heavy machinery to tools, we provide essential industrial equipment for various applications.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card shadow-sm">
+          <img src="pic/office.jpg" class="card-img-top" alt="Office Supplies">
+          <div class="card-body">
+            <h5 class="card-title"><b>Office Supplies</b></h5>
+            <p class="card-text">Furnish your workspace with ergonomic and efficient office solutions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card shadow-sm">
+          <img src="https://img.freepik.com/free-photo/3d-render-low-poly-plexus-design-network-communications_1048-14542.jpg?ga=GA1.1.1132042489.1705104748&semt=ais_hybrid-rr-similar"  class="card-img-top" alt="IT and Networking">
+          <div class="card-body">
+            <h5 class="card-title"><b>IT and Networking</b></h5>
+            <p class="card-text">Get state-of-the-art IT equipment and networking devices for smooth business operations.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card shadow-sm">
+          <img src="pic/home.avif" class="card-img-top" alt="Safety Gear">
+          <div class="card-body">
+            <h5 class="card-title"><b>Home Equipment</b></h5>
+            <p class="card-text">Essential safety gear for protecting your workforce in industrial environments.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Modal Structure -->
+ <div class="modal fade" id="customerServiceModal" tabindex="-1" aria-labelledby="customerServiceModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="customerServiceModalLabel">Need Assistance?</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              Reach out to our customer service via the chat box for further assistance. We’re here to help you!
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got it!</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+      var customerServiceModal = new bootstrap.Modal(document.getElementById('customerServiceModal'));
+      customerServiceModal.show();
+  });
+</script>
+
+<!-- software development service section -->
+<section id="software-dev" class="bg-gray-50 py-10">
+  <div class="container">
+    <h2 class="text-3xl font-semibold text-blue-600">Software Development Services</h2>
+    <p class="mt-4 text-gray-600">We offer custom software solutions to enhance your supply chain efficiency and overall business performance.</p>
+    <div class="flex flex-wrap justify-around mt-6">
+      <div class="w-full md:w-1/3 p-4">
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <h3 class="text-xl font-bold text-gray-800">Custom ERP Systems</h3>
+          <p class="mt-2 text-gray-600">Tailored ERP systems for efficient resource management.</p>
+        </div>
+      </div>
+      <div class="w-full md:w-1/3 p-4">
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <h3 class="text-xl font-bold text-gray-800">Supply Chain Automation</h3>
+          <p class="mt-2 text-gray-600">Automate and optimize your supply chain processes.</p>
+        </div>
+      </div>
+      <div class="w-full md:w-1/3 p-4">
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <h3 class="text-xl font-bold text-gray-800">Data Analytics Solutions</h3>
+          <p class="mt-2 text-gray-600">Gain insights and improve performance with our data-driven approach.</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-8">
+      <a href="#supply-chain" class="btn btn-outline-primary">Explore Supply Chain Services</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- add javascript and smooth scroll functionality -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Smooth scroll effect for navbar links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+
+
+<!-- javascript for handling the form -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3.2.0/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function() {
+    emailjs.init('YOUR_EMAILJS_USER_ID'); // Replace with your EmailJS user ID
+  })();
+
+  document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const serviceID = 'YOUR_SERVICE_ID'; // Replace with your EmailJS service ID
+    const templateID = 'YOUR_TEMPLATE_ID'; // Replace with your EmailJS template ID
+
+    const templateParams = {
+      name: document.getElementById('name').value,
+      email: document.getElementById('email').value,
+      message: document.getElementById('message').value,
+    };
+
+    emailjs.send(serviceID, templateID, templateParams)
+      .then(response => {
+        document.getElementById('feedbackMessage').innerText = 'Thank you for your feedback!';
+      }, error => {
+        document.getElementById('feedbackMessage').innerText = 'Error sending feedback. Please try again.';
+        console.error('FAILED...', error);
+      });
+  });
+</script>
+
+<!-- additional page -->
+<section id="more-info" class="py-10 bg-white">
+  <div class="container">
+    <h2 class="text-3xl font-semibold text-blue-600 text-center">Explore Our Business</h2>
+    <p class="text-center text-gray-600 mt-2">Learn more about our services, expertise, and career opportunities.</p>
+    <div class="row mt-5">
+      <div class="col-md-3">
+        <a href="about.html" class="block bg-gray-50 p-5 rounded-lg shadow-md hover:shadow-lg transition">
+          <h3 class="text-xl font-bold text-gray-800">About Us</h3>
+          <p class="text-gray-600 mt-2">Get to know our mission and vision.</p>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="services.html" class="block bg-gray-50 p-5 rounded-lg shadow-md hover:shadow-lg transition">
+          <h3 class="text-xl font-bold text-gray-800">Our Services</h3>
+          <p class="text-gray-600 mt-2">Discover the services we offer.</p>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="case-studies.html" class="block bg-gray-50 p-5 rounded-lg shadow-md hover:shadow-lg transition">
+          <h3 class="text-xl font-bold text-gray-800">Case Studies</h3>
+          <p class="text-gray-600 mt-2">See our success stories and projects.</p>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="careers.html" class="block bg-gray-50 p-5 rounded-lg shadow-md hover:shadow-lg transition">
+          <h3 class="text-xl font-bold text-gray-800">Careers</h3>
+          <p class="text-gray-600 mt-2">Join our team and grow with us.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- web design for services -->
+<section id="web-design" class="py-10 bg-gray-50">
+  <div class="container">
+    <h2 class="text-3xl font-semibold text-blue-600 text-center">Web Design Services</h2>
+    <p class="text-center text-gray-600 mt-2">Transform your business with our professional web design services. We create responsive, visually appealing websites that align with your brand and engage your audience.</p>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <img src="pic/soft.avif" alt="Web Design" class="img-fluid rounded shadow-lg" style="
+        height: 300px; width: 500px;">
+      </div>
+      <div class="col-md-6">
+        <ul class="list-disc ml-4 text-gray-700">
+          <li class="mt-2">Responsive Website Design</li>
+          <li class="mt-2">E-commerce Solutions</li>
+          <li class="mt-2">SEO Optimization</li>
+          <li class="mt-2">Content Management Systems (CMS)</li>
+          <li class="mt-2">Custom Web Development</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary mt-4">Get a Quote</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- customer chatbox linked to whatsapp -->
+<a href="https://wa.me/+2348050626974" class="fixed bottom-5 right-5 bg-yellow-500 p-3 rounded-full shadow-lg hover:bg-green-600 transition">
+  <img src="pic/chatbox.jpg" alt="Chat with us on WhatsApp" class="w-8 h-8">
+</a>
+
+<!-- feedback form with picture linked to whatsapp -->
+<section id="feedback" class="py-10 bg-gray-50">
+  <div class="container">
+    <h2 class="text-3xl font-semibold text-blue-600 text-center">Customer Feedback</h2>
+    <p class="text-center text-gray-600 mt-2">We appreciate your feedback. Please share your experience with us.</p>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <img src="pic/feed.avif" alt="Feedback" class="img-fluid rounded shadow-md">
+      </div>
+      <div class="col-md-6">
+        <form id="whatsappForm" class="bg-white p-5 rounded-lg shadow-md">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required placeholder="Your Name">
+          </div>
+          <div class="mb-3">
+            <label for="feedback" class="form-label">Feedback</label>
+            <textarea class="form-control" id="feedback" rows="4" required placeholder="Your Feedback"></textarea>
+          </div>
+          <button type="button" onclick="sendFeedback()" class="btn btn-primary w-full">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- javascript for whatsapp integration -->
+<script>
+  function sendFeedback() {
+    const name = document.getElementById('name').value;
+    const feedback = document.getElementById('feedback').value;
+    const phoneNumber = '+2348050626974'; // Replace with your WhatsApp number
+    const message = `Hello, my name is ${name}. Here is my feedback: ${feedback}`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+  }
+</script>
+
+
+<!-- externded web design service -->
+<section id="web-design-extended" class="py-10 bg-white">
+  <div class="container">
+    <h2 class="text-3xl font-semibold text-blue-600 text-center">Comprehensive Web Design Services</h2>
+    <p class="text-center text-gray-600 mt-2">Our web design solutions are crafted to elevate your brand and ensure optimal user experience.</p>
+    <div class="row mt-8">
+      <div class="col-md-4">
+        <div class="card shadow-sm p-4">
+          <img src="pic/response.png" alt="Responsive Design" class="w-16 h-16 mx-auto">
+          <h5 class="mt-4 text-xl font-bold text-center text-gray-800">Responsive Design</h5>
+          <p class="text-center text-gray-600 mt-2">Our websites adapt seamlessly to all devices, ensuring a great experience on mobile, tablet, and desktop.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm p-4">
+          <img src="pic/ecommerce.png" alt="E-Commerce Solutions" class="w-16 h-16 mx-auto">
+          <h5 class="mt-4 text-xl font-bold text-center text-gray-800">E-Commerce Solutions</h5>
+          <p class="text-center text-gray-600 mt-2">We build robust online stores with integrated payment gateways and a user-friendly interface.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm p-4">
+          <img src="pic/seo.png" alt="SEO Optimization" class="w-16 h-16 mx-auto">
+          <h5 class="mt-4 text-xl font-bold text-center text-gray-800">SEO Optimization</h5>
+          <p class="text-center text-gray-600 mt-2">Optimize your site for search engines to increase visibility and drive more organic traffic to your business.</p>
+        </div>
+      </div>
+    </div>
+    <div class="mt-8 text-center">
+      <a href="contact.html" class="btn btn-primary">Get Started with Us</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- addition feature for the website -->
+<section id="testimonials" class="py-10 bg-gray-100">
+  <div class="container">
+    <h2 class="text-3xl font-semibold text-blue-600 text-center">What Our Clients Say</h2>
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <div class="testimonial bg-white p-4 rounded-lg shadow-md">
+          <p class="text-gray-700">"Excellent web design services. The team is professional and delivered beyond expectations."</p>
+          <h5 class="mt-3 font-bold text-blue-600">- John Doe</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial bg-white p-4 rounded-lg shadow-md">
+          <p class="text-gray-700">"We rely on their equipment supply services for our business needs, and they never disappoint."</p>
+          <h5 class="mt-3 font-bold text-blue-600">- Jane Smith</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial bg-white p-4 rounded-lg shadow-md">
+          <p class="text-gray-700">"Quick and reliable IT solutions. Highly recommend!"</p>
+          <h5 class="mt-3 font-bold text-blue-600">- Emily Johnson</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- faq section -->
+<div class="container mx-auto p-6">
+  <h2 class="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
+  <div class="space-y-4">
+      <details class="border rounded-lg p-4">
+          <summary class="font-semibold cursor-pointer">What services do you offer?</summary>
+          <p class="mt-2 text-gray-700">We offer a wide range of services including web design, software development, supply chain management solutions, and equipment supply. Our expertise spans across various industries ensuring tailored and effective solutions.</p>
+      </details>
+      <details class="border rounded-lg p-4">
+          <summary class="font-semibold cursor-pointer">How can I contact support?</summary>
+          <p class="mt-2 text-gray-700">You can reach our support team through the chat box on our website, which is directly linked to WhatsApp, or by filling out the feedback form. Our team is available 24/7 to assist you with any inquiries.</p>
+      </details>
+      <details class="border rounded-lg p-4">
+          <summary class="font-semibold cursor-pointer">Do you provide custom software solutions?</summary>
+          <p class="mt-2 text-gray-700">Yes, we specialize in custom software development. We work closely with our clients to understand their unique requirements and provide scalable and robust software solutions tailored to their business needs.</p>
+      </details>
+      <details class="border rounded-lg p-4">
+          <summary class="font-semibold cursor-pointer">How do I get a quote for your services?</summary>
+          <p class="mt-2 text-gray-700">To get a quote, please visit our contact page and fill out the form, or reach out to us directly via WhatsApp. We’ll respond promptly with detailed pricing and service information based on your requirements.</p>
+      </details>
+  </div>
+</div>
+
+
+<!-- footer -->
+<footer class="bg-blue-600 text-white py-4">
+  <div class="container text-center">
+    <p>&copy; 2024 Your Company Name. All Rights Reserved.</p>
+    <div class="mt-2">
+      <a href="#" class="text-white mx-2">LinkedIn</a>
+      <a href="#" class="text-white mx-2">Twitter</a>
+      <a href="#" class="text-white mx-2">Facebook</a>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

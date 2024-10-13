@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+
+
+  <!-- extended feedback(whatsapp and image) -->
+<section id="feedback-enhanced" class="py-10 bg-white">
+  <div class="container">
+    <h2 class="text-3xl font-semibold text-blue-600 text-center">Share Your Experience</h2>
+    <p class="text-center text-gray-600 mt-2">Your feedback helps us improve. Reach out to us directly on WhatsApp!</p>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <img src="pic/spark.webp" alt="Customer Feedback" class="img-fluid rounded shadow-md">
+      </div>
+      <div class="col-md-6">
+        <form class="bg-gray-50 p-5 rounded-lg shadow-md">
+          <div class="mb-3">
+            <label for="customerName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="customerName" required placeholder="Your Name">
+          </div>
+          <div class="mb-3">
+            <label for="customerFeedback" class="form-label">Feedback</label>
+            <textarea class="form-control" id="customerFeedback" rows="4" required placeholder="Your Feedback"></textarea>
+          </div>
+          <button type="button" onclick="openWhatsApp()" class="btn btn-primary w-full">Send Feedback via WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- javascrip for whatsapp functionality -->
+<script>
+  function openWhatsApp() {
+    const name = document.getElementById('customerName').value;
+    const feedback = document.getElementById('customerFeedback').value;
+    const phoneNumber = 'yourphonenumber'; // Use your WhatsApp number with country code
+    const message = `Hello, I'm ${name}. Here is my feedback: ${feedback}`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+  }
+</script>
+
+
+
+
+
+
+
+<!-- footer -->
+<footer class="bg-blue-600 text-white py-4">
+  <div class="container text-center">
+    <p>&copy; 2024 Your Company Name. All Rights Reserved.</p>
+    <div class="mt-2">
+      <a href="#" class="text-white mx-2">LinkedIn</a>
+      <a href="#" class="text-white mx-2">Twitter</a>
+      <a href="#" class="text-white mx-2">Facebook</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
